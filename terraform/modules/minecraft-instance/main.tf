@@ -57,7 +57,7 @@ resource azurerm_container_group minecraft_server {
       success_threshold        = 1
       timeout_seconds          = 10
     }
-    memory                     = "2"
+    memory                     = "8"
     ports {
       port                     = 80
       protocol                 = "TCP"
